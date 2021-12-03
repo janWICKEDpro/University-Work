@@ -8,6 +8,10 @@ int size = 10;
 //This function allocates memory for the stack
 int *create(void){
 	int *stack=(int *)malloc(size*sizeof(int));
+	if(stack = NULL){
+		printf("Could not allocate memory");
+		return;
+	}
 return stack;
 }
 
