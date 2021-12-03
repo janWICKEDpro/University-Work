@@ -8,6 +8,9 @@ int head=-1,end = -1;
 //This function creates space in memory for storing items in our queue array
 int *create(void){
 int *queue = (int *)malloc(size*sizeof(int));
+if(queue == NULL){
+	printf("\nCould not allocate memory\n");
+}
 return queue;
 }
 
