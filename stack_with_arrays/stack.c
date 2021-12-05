@@ -15,7 +15,7 @@ int *create(void){
 return stack;
 }
 
-//This function checks if the stack is empty
+//This function checks if the stack is empty.
 bool isEmpty(void){
 	if(top ==-1)return true;
 	return false;
