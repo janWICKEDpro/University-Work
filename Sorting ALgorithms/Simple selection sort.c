@@ -16,7 +16,7 @@ void selectionSort(int *arr, int i, int j){
 
 int main(){
 
-    int arr[5] = {9,4,3,1,5};
+    int arr[10] = {9,4,2,12,8,9,4,3,1,5};
     selectionSort(arr,0,4);
     for(int i=0; i<4; i++){
         printf("%d", arr[i]);
