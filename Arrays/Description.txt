@@ -1,1 +1,1 @@
-This directory will contain array problems from Uni
+This directory will contain array problems from University
